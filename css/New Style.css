@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px ;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #35424a;
+}
+
+/*global*/
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+.button-box {
+   text-align:center;
+   margin-top:20px;
+}
+
+.loginbox input{
+  width: 85%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{
+  border : none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline : none ;
+  height : 40px;
+  color : #fff;
+  font-size : 16px;
+}
+
+::placeholder {
+  color: rgba(255,255, 255, 0.5);
+}
+
+.loginbox input[type="submit"]
+{
+  border : none ;
+  outline : none ;
+  height : 40px;
+  color : #fff;
+  font-size : 16px ;
+  background : #35424a;
+  border-radius: 10px;
+  cursor : pointer ;
+  padding-right: 0px;
+}
+.loginbox input[type="reset"]
+{
+  border: none ;
+  outline : none ;
+  height : 40px;
+  color : #fff;
+  font-size : 16px ;
+  background : #35424a;
+  border-radius: 10px;
+  margin-right: 40px;
+  cursor : pointer ;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 5px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+
+#Name {
+ text-align: center;
+ padding-top: 50px;
+ color: #ffffff;
+}
+
+#Name1 {
+  text-align: center;
+  min-height: -200px;
+  padding-left: 3px;
+  margin: -5px;
+  color: #ffffff;
+}
+
+#Name2 {
+  text-align: center;
+  padding-left: 15px;
+  color: #e8491d;
+  width: 500%;
+}
+# Name3 {
+  text-align: center;
+  padding: 10px;
+  margin-right: 500px;
+  color: #e8491d;
+}
+
+#Name4 {
+ margin-left: 40px;
+ padding-bottom: 50px;
+ text-align: center;
+}
+
+#Name5 {
+ padding-top: 42px;
+ margin-top:-86px;
+ padding-left: 0px;
+}
+
+#branding {
+  float: left;
+  margin-left: 50px;
+}
+
+footer {
+padding: 1px;
+margin-top: 2px;
+background-color: #e8491d;
+text-align: center;
+}
+
+#body {
+  min-height:250px;
+  background: url('../img/WHDQ-512285813.jpg') no-repeat -150px -100px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 255px;
+}
+
+#login {
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 450px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+#box {
+  font-size: 200%;
+  text-align: center;
+  padding-bottom: -200px;
+}

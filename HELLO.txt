@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Check for the Profile">
+    <meta name="keywords" content="profile,resume,contact,id">
+    <link rel="stylesheet" href="./css/style.css">
+      <title>Ciruculum Vite</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Ciruculum Vite</h1>
+        </div>
+        <nav>
+          <ul>
+              <li class="current"><a href="hello.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="Feedback">
+      <div class="container">
+        <h3> Please Input Your Feedback About the Profile and Site </h3>
+        <textarea rows="5" cols="60" placeholder="Please input your feedback"></textarea>
+    <form>
+      <input ="text" placeholder="Enter Email" title="Enter your Email Address">
+      <button type="submit" class="button_1">Sumbit</button>
+    </form>
+  </div>
+  </section>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_photo1.jpg">
+          <h4> Photo </h4>
+        </div>
+        <div class="box">
+          <img src="./img/one_cv.jpg">
+          <h4><a href="../Nikhil/Nikhil Prakash Muthya CV.pdf" download="Nikhil Prakash Muthya CV" title="Download CV" alt="Ciruculum vite"> Download CV </a> </h4>
+        </div>
+        <div class="box">
+          <img src="./img/logo.jpg">
+          <h4> Email ID(nikhilprakash8@gmail.com) </h4>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <p> Copyright &copy; 2017 </p>
+      </footer>
+  </body>
+</html>
